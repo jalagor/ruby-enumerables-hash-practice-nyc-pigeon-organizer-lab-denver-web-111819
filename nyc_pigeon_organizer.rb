@@ -6,5 +6,5 @@ def nyc_pigeon_organizer(data)
         if pigeons_by_names[name] == nil 
           pigeons_by_names[name] = {}
         end
-        
+        if pigeons_by_names[name][key]
 end
